@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: devops-test
-          image: europe-west1-docker.pkg.dev/project-c5f72c1b-6454-456f-bc4/xp-repo/devops-test:v1
+          image: europe-west1-docker.pkg.dev/project-c5f72c1b-6454-456f-bc4/xp-repo/devops-test:REPLACE_ME
           ports:
             - containerPort: 8080
           env:
