@@ -1,9 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
+namespace: dev
+
 resources:
   - app.yml
 
 images:
   - name: europe-west1-docker.pkg.dev/project-c5f72c1b-6454-456f-bc4/xp-repo/devops-test
-    newTag: v1
+    newTag: REPLACE_ME
